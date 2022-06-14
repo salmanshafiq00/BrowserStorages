@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    display: block;
+    width: 98%;
+    margin: auto;
+    padding: 15px;
+    background-color: teal;
+    color: rgb(224, 255, 255);
+    border-radius: 4px;
+    margin-top: 15px;
+    text-align: center;
+}
+span#me{
+    font-size: 20px;
+    float: right;
+    margin-top: 18px;
+}
+div#container {
+    width: 30%;
+    background-color: teal;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 9px;
+    margin-left: 14px;
+    float: left;
+}
+label {
+    font-weight: 600;
+    color: rgb(220, 252, 252);
+    margin-top: 8px;
+    margin-left: 13px;
+    display: block;
+}
+input:not([type=radio], [id=showId]), select {
+    display: block;
+    width: 95%;
+    padding: 8px;
+    margin: auto;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 4px;
+}
+input:focus ,select:focus {
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid #ff9800;
+    width: 100%;
+}
+input[type=file]{
+    border: 1px solid white;
+    margin-bottom: 5px;
+}
+input[type=radio]{
+    width: 20%;
+}
+span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btnSubmit {
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border-radius: 7px;
+    margin: auto;
+    cursor: pointer;
+    background-color: #fff;
+    border: 2px solid #ff9800;
+    color: rgb(1, 14, 14);
+    font-weight: 700;
+}
+
+#btnSubmit:hover {
+    background-color: #ff9800;
+    color: whitesmoke;
+    font-weight: 700;
+    transition: 800ms;
+}
+
+.btn {
+    width: 20%;
+    padding: 8px;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: rgb(30, 30, 252);
+    border: 2px solid #ff9800;
+    color: rgb(233, 255, 255);
+    font-weight: 700;
+    margin-top: 8px;
+    margin-left: 5%;
+}
+#showId {
+    width: 12%;
+    padding: 8px;
+    border-radius: 7px;
+    outline: none;
+    border: 3px solid #ccc;
+    margin-left: 5%;
+}
+#btnUpdate {
+    background-color: green;
+    border: 2px solid #ff9800;
+    margin-left: 5%;
+}
+#btnDelete {
+    background-color: red;
+    border: 2px solid #ff9800;
+}
+
+input[type=file]{
+    visibility: hidden;
+}
+
+label[for=profilePic] {
+    border: 2px solid wheat;
+    border-radius: 4px; 
+    height: 50px;
+    box-sizing: border-box;
+}
+#upload_icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 6px;
+    margin-left: 6px;
+}
+#dropText{
+    color: black;
+    display: block;
+    font-size: 12px;
+    margin-left: 50px;
+    margin-top: -20px ;
+}
+
+#results {
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 6%;
+    margin-top: 30px;
+    min-width: 400px;
+}
+#profilePic {
+    width: 50px;
+    height: 50px;
+}
+table#contacts, th, td {
+    border: 2px solid teal;
+    border-collapse: collapse;
+    padding: 8px;
+}
+/*#dropZone{
+    border: 2px solid wheat;
+    border-radius: 4px; 
+    /* height: 50px; */
+    /* box-sizing: border-box; */
+/* } */
+*/
+/* #dropZone {
+    width: 200px;
+    height: 100px;
+    border: 2px solid wheat;
+    border-radius: 4px; 
+    background: lime;
+    float: right;
+} */

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        table, th, td {
+            margin-top: 20px;
+            border: 2px solid teal;
+            padding: 8px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> 
+            <span style="float: left; color: whitesmoke;">
+                <a style="text-decoration: none; margin-right: 10px; color: purple;" href="../home.html">Back To Home 
+                </a>
+            </span>
+             File System Api 
+            <span id="me">Salman Farsy Shafiq</span></h1>
+    </header>
+    <label for="id">ID</label>
+    <input type="number" name="id" id="id"><br><br>
+
+    <label for="userName">Name</label>
+    <input type="text" name="userName" id="userName"><br><br>
+
+    <label for="dob">Date</label>
+    <input type="date" name="dob" id="dob"><br><br>
+
+    <input type="radio" name="gender" id="male" value="Male">Male
+    <input type="radio" name="gender" id="female" value="Female">Female <br><br>
+
+    <input type="file" id="profilePic" ><br><br>
+
+    <button id="btnSubmit">Submit</button>
+    <button id="btnRead">Read</button>
+    <button id="btnDelte">Delete All</button>
+
+    <div id="results">
+        <table id="resultTable">
+            <thead>
+                <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date of Birth</th>
+                <th>Gender</th>
+                <th>Image</th>
+            </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="fileSystemApi.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+        <h1>
+            <span style="float: left; font-size: medium; color: whitesmoke;">
+                <a style=" text-decoration: none; color: whitesmoke;" href="../home.html">Back To Home
+                </a>
+            </span>
+             LocalStorage CRUD Application 
+             <span id="me">Salman Farsy Shafiq</span>
+        </h1>
+    </header>
+    <div>
+    <div id="heading"></div>
+    <div id="container">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" placeholder="First Name">
+
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" placeholder="Last Name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email"placeholder="Email">
+
+        <label for="mobile">Mobile</label>
+        <input type="number" id="mobile"placeholder="Mobile">
+
+        <label for="date-of-birth">Date of Birth</label>
+        <input type="date" id="dateOfBirth"placeholder="Date of Birth">
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="Male"><span>Male</span>
+        <input type="radio" name="gender" id="female" value="Female"><span>Female</span>
+        <input type="radio" name="gender" id="others" value="Others"><span>Others</span>
+
+        <label for="religion">Religion</label>
+        <select name="" id="religion">
+            <option value="Islam">Islam</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Cristina">Cristina</option>
+            <option value="Buddho">Buddho</option>
+        </select>
+
+        <label for="password">Password</label>
+        <input type="password" id="password"placeholder="Password" required>
+
+        <div id="dropZones">
+            <label for="profilePic"><img src="../images/image.png" id="upload_icon" /><span id="dropText">or Drop your image here...</span></label>
+            <p id="fileName"></p>
+            <input type="file" id="profilePic" >
+        </div> 
+
+        <button class="btn" id="btnSubmit" onclick="submit()">Submit</button>
+
+    </div>
+    </div>
+    
+    <div id="results">
+        <div>
+            <table id="contacts">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                </tbody>
+            </table>
+        </div>
+        <div id="showDetails">
+            <table id="detailsTable">
+             
+            </table>
+        </div>
+    </div>
+    
+</div>
+
+    <script src="localStorage.js"></script>
+</body>
+</html>
